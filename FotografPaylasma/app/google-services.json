@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "70163386503",
+    "project_id": "myumutproject",
+    "storage_bucket": "myumutproject.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70163386503:android:584486bc72eb486d67e822",
+        "android_client_info": {
+          "package_name": "com.umut.fotografpaylasma"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFcy6ebYvJruFrS6xlgMyHZE2-PBRDFDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
