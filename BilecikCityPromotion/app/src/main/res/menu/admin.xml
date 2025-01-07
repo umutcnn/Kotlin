@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Admin"
+        android:id="@+id/Admin"
+        android:icon="@drawable/baseline_account_box_24"/>
+
+    <item android:title="Nüfus"
+        android:id="@+id/AdminTarihiYerler"
+        android:icon="@drawable/baseline_group_add_24" />
+    <item
+        android:title="Tarihi Yerler Admin"
+        android:id="@+id/adminTarihiYerler"
+        android:icon="@drawable/baseline_follow_the_signs_24" />
+
+
+</menu>

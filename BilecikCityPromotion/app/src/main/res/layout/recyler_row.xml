@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/border"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/receyclerEmailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:text="Kullanıcı eMail">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/recyclerImageView"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="220dp">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/receyclerAdiText"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="15dp"
+        android:text="Tarihi Yer Adi"
+        android:textSize="16sp">
+
+    </TextView>
+
+
+
+    <TextView
+        android:id="@+id/receyclerTanitimText"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="15dp"
+        android:text="Tarihi Yer Hakkında Uzun Bilgi"
+        android:textSize="16sp">
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sil"
+            android:layout_marginEnd="10dp" />
+
+        <Button
+            android:id="@+id/editButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Düzenle" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

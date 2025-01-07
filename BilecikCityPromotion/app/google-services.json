@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "928800355368",
+    "project_id": "bileciktanitims",
+    "storage_bucket": "bileciktanitims.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928800355368:android:024268f6555ba8300c711d",
+        "android_client_info": {
+          "package_name": "com.umut.bilecikcitypromotion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfgj7wS1KVTRBUFDTlxftqa9z-TvvEhsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

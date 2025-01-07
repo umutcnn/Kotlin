@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editIlceAdi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="İlçe Adı"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editIlceAciklama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Açıklama"
+            android:minLines="3"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editNufus2020"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nüfus (2020)"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editNufus2022"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nüfus (2022)"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editNufus2023"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nüfus (2023)"
+            android:layout_marginBottom="16dp" />
+
+        <ImageView
+            android:id="@+id/editIlceImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/select_image"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/selectImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fotoğraf Seç"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kaydet" />
+
+    </LinearLayout>
+</ScrollView>

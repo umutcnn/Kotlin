@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:name=".Site.View.TarihiYerDetay"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/border3">
+
+        <!-- Görsel -->
+        <ImageView
+            android:id="@+id/detayImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            />
+
+        <!-- Başlık -->
+        <TextView
+            android:id="@+id/detayTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:text="Başlık" />
+
+        <!-- Kısa Açıklama -->
+        <TextView
+            android:id="@+id/detayShortDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Kısa açıklama" />
+
+        <!-- Uzun Açıklama -->
+        <TextView
+            android:id="@+id/detayLongDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:text="Uzun açıklama" />
+
+    </LinearLayout>
+</ScrollView>

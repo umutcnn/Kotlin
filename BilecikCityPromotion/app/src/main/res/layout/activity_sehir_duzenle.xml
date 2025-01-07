@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Şehir Adı -->
+    <TextView
+        android:id="@+id/textSehirAdiLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Şehir Adı"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/editSehirAdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Şehir Adını Giriniz"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Açıklama -->
+    <TextView
+        android:id="@+id/textAciklamaLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Açıklama"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/editAciklama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Açıklama Giriniz"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Fotoğraf -->
+    <ImageView
+        android:id="@+id/editImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/select_image" />
+
+    <Button
+        android:id="@+id/selectImageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fotoğraf Seç"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Kaydet Butonu -->
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kaydet" />
+
+</LinearLayout>
